@@ -20,7 +20,7 @@ const server = http.Server(app); //Extraindo o servidor e aplicando nosso app co
 
 setupWebsocket(server);//instanciando a função passando nosso servidor como parâmetro
 
-mongoose.connect('mongodb+srv://dantess:418014Dss@cluster0-jjbgz.mongodb.net/week10?retryWrites=true&w=majority', { 
+mongoose.connect('mongodb+srv://user:password@cluster0-jjbgz.mongodb.net/week10?retryWrites=true&w=majority', { 
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
